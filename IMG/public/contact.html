@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1375px)" href="css/phone.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Shantell+Sans:wght@300&family=Tilt+Neon&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <style>
+         #marco::before{
+    content: "";
+    position: absolute ;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background: url('./ace.jpg') no-repeat center center/cover;
+}
+#contact::before{
+    background: none;
+}
+.oauth {
+    background-color: white;
+    margin: 0;
+    padding: 3px 5px;
+    font-size: 1.2rem;
+    width: 102%;
+    border: 3px;
+    border-radius: 28px;
+}
+
+    </style>
+</head>
+
+<body>
+    
+
+    <section id="marco">
+        <nav id="navbar">
+            <div id="logo">
+                <img src="logo.png" alt="StrawhatPirates">
+            </div>
+            <ul>
+                <li class="item"><a href="index.html">Home</a></li>
+               
+                <li class="item"><a href="#contact">Sign Up</a></li>
+    
+            </ul>
+        </nav>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="/index" method="post">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Email: </label>
+                    <input type="text" name="email" id="Email" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <label for="name">Password: </label>
+                    <input type="text" name="password" id="password" placeholder="Enter your Password">
+                </div>
+                <div class="form-group">
+                    <label for="name">Phone Number: </label>
+                    <input type="text" name="phone" id="phoneNumber" placeholder="Enter your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="name">Message: </label>
+                    <textarea name="message" id="message" cols="10" rows="1"></textarea>
+                </div>
+                <button class="btn">Sign Up</button>
+                
+            </form>
+        </div>
+    </section>
+</body>
+</html>

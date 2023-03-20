@@ -1,0 +1,57 @@
+/* Navigation */
+
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+   /* font-size: 1rem; 
+   padding: 0px 7px; */
+}
+/* Home Section */
+#home{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 290px;
+    /* padding: 100px; */
+}
+#home::before{
+    height: 441px;
+
+}
+#home p{
+    font-size: 0.8rem;
+}
+    /* Services Section */
+#services{
+    flex-direction: column;
+
+}
+#services .box{
+
+}
+/* Clint Section */
+#clint{
+    flex-wrap: wrap;
+}
+#clint img{
+    /* width: 66px;
+    padding: 56px; */
+}
+#clint-section::before{
+    background: url('../bg1.jpg')no-repeat center center/cover;
+}
+
+/* Contact us Section */
+
+/* Footer */
+
+/* Utility Classes */
+.h-primary{
+    padding: 0px 0px;
+    font-size: 26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 12px 23px;
+}
